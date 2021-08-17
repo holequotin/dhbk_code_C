@@ -107,6 +107,7 @@ void nhaphoadon(ban dayban[],int m,int k){
             printf("\nNhap ma mon an:");
             scanf("%d",&code);
         }
+	if(code==0) break;
         printf("Nhap so luong mon an:");scanf("%d",&number);
         int i;
         for( i=1;i<m;i++){
